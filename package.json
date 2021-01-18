@@ -1,0 +1,24 @@
+{
+  "name": "webpack-file-router-plugin",
+  "version": "0.0.0",
+  "description": "Webpack plugin for file system-based routing",
+  "main": "lib/index.js",
+  "author": "Artem Zakharchenko",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/webpack": "^4.41.26",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "webpack": "^5.15.0"
+  },
+  "dependencies": {
+    "fs-teardown": "^0.1.0",
+    "gatsby-page-utils": "^0.7.0"
+  }
+}
