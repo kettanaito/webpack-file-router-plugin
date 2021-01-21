@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
-    "allowJs": false
+    "allowJs": false,
+    "outDir": "lib",
+    "declaration": true,
+    "types": ["webpack"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/index.ts"],
   "exclude": ["node_modules"]
 }
