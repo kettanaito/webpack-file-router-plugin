@@ -5,7 +5,6 @@ import { createPath, watchDirectory } from 'gatsby-page-utils'
 import VirtualModulesPlugin from 'webpack-virtual-modules'
 
 export interface FileRouterPluginOptions {
-  variableName: string
   rootDir: string
   pattern?: string
   exclude?: RegExp[]
@@ -20,7 +19,6 @@ export interface Page {
 export type PagesMap = Map<string, Page>
 
 const defaultOptions: FileRouterPluginOptions = {
-  variableName: 'ROUTES',
   rootDir: undefined,
   pattern: '**/*.{js,jsx}',
   exclude: [],
